@@ -1,0 +1,31 @@
+/*-----------------------------
+Client Area
+-----------------------------*/
+
+.client-area {
+    .single-brand {
+        a {
+            img {
+                filter: opacity(0.6) grayscale(1);
+                transition: all 0.3s ease;
+            }
+            &:hover {
+                img {
+                    filter: opacity(1) grayscale(0);
+                }
+            }
+        }
+    }
+    .section-title {
+        .title {
+            font-size: 42px;
+            color: #000629;
+            &.style-01 {
+                font-size: 30px;
+                color: #16215c;
+            }   
+        }
+    }
+}
+
+

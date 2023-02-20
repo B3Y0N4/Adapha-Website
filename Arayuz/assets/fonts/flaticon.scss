@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?fee7d6243750067ab1594b6e087a94b0") format("truetype"),
+url("./flaticon.woff?fee7d6243750067ab1594b6e087a94b0") format("woff"),
+url("./flaticon.woff2?fee7d6243750067ab1594b6e087a94b0") format("woff2"),
+url("./flaticon.eot?fee7d6243750067ab1594b6e087a94b0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fee7d6243750067ab1594b6e087a94b0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "headphones": "\f101",
+    "list": "\f102",
+    "double-arrow": "\f103",
+);
+
+.flaticon-headphones:before {
+    content: map-get($flaticon-map, "headphones");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-double-arrow:before {
+    content: map-get($flaticon-map, "double-arrow");
+}

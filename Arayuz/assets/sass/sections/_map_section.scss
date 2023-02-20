@@ -1,0 +1,44 @@
+// Map section
+.map-section {
+    background: #1e1528;
+    &.style-01 {
+        padding-bottom: 100px;
+    }
+    .bg-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 500px;
+    }
+    .section-title {
+        max-width: 390px;
+        margin: auto;
+        .audio-pera {
+            font-size: 16px;
+            color: $white;
+            line-height: 25px;
+        }
+        span {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        strong {
+            color: $white;
+        }
+    }
+    .content {
+        margin-top: -385px;
+        .icon {
+            font-size: 40px;
+            text-align: center;
+            color: #da3654;
+        }
+    }      
+}
+
+.audio-map-section {
+    background-color: #1e1528;
+    .title {
+        color: $white;
+    }
+}
+

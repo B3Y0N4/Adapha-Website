@@ -1,0 +1,45 @@
+// offer-area
+.offer-area {
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &.padding-bottom-400 {
+        padding-bottom: 360px;
+    }
+    .section-title {
+        &.customer {
+            .title {
+                font-size: 48px;
+                line-height: 58px;
+                color: $white;
+            }
+        }
+    }
+}
+
+.offer-item-wrap {
+    &.m-bottom {
+        margin-bottom: -350px;
+    }
+    &.m-top {
+        margin-top: -320px;
+    }
+    &.learning-app {
+        margin-top: -520px;
+        background: #fff;
+        padding: 130px 100px 137px 100px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 100px -17px rgb(110 107 138 / 20%);
+        .section-title {
+            .title {
+                font-size: 48px;
+                line-height: 58px;
+                color: #16215c;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,86 @@
+/*-----------------------------
+    Accordion Item
+-----------------------------*/
+
+.accordion-wrapper {
+    .card {
+        +.card {
+            margin-top: 20px;
+        }
+        border: none;
+        background-color: transparent;
+        .card-header {
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            a {
+                display: block;
+                font-size: 16px;
+                line-height: 28px;
+                font-weight: 700;
+                background-color: #f9f3ff;
+                padding: 14px 30px;
+                cursor: pointer;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    right: 30px;
+                    top: 15px;
+                    content: "\f107";
+                    font-family: "fontawesome";
+                }
+                &.white {
+                    background-color: $white;
+                    font-size: 18px;
+                    color: #000629;
+                    &.style-01 {
+                        &:after {
+                            position: absolute;
+                            left: 0px;
+                            top: 15px;
+                            content: "\f068";
+                            font-family: "fontawesome";
+                            color: #930ED8;
+                            font-size: 14px;
+                        }
+                        &[aria-expanded="false"] {
+                            &:after {
+                                content: "\f067";
+                            }
+                        }
+                    }      
+                }
+                &[aria-expanded="false"] {
+                    &:after {
+                        content: "\f106";
+                    }
+                }
+            }
+        }
+        .card-body {
+            background-color: #fff;
+            padding: 20px 30px;
+            &.style-01 {
+                padding: 40px 40px;
+                box-shadow: 0 0 40px 0 rgb(0 0 0 / 5%);
+            }
+            &.style-02 {
+                background-color: #fff;
+                padding: 0px 0 20px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+.accoridions {
+    .section-title {
+        .title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #000629;
+            line-height: 50px;
+        }
+    }
+}
+

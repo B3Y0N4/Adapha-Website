@@ -1,0 +1,56 @@
+// faq-single-item
+.frequently-area {
+    .section-title {
+        .title {
+            font-size: 58px;
+            &.style-01 {
+                font-size: 48px;
+            }
+        }
+    }
+    .submit-btn {
+        background-color: #007bcf;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            background-color: #007bcf;
+            border: none;
+        }
+    }
+    .content {
+        .title {
+            font-size: 48px;
+            line-height: 60px;
+            color: #16215c;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            max-width: 450px;
+        }
+    }
+}
+
+.faq-single-item {
+    margin-bottom: 40px;
+    &.style-01 {
+        margin: 0;
+    }
+    .content {
+        .title {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0;
+        }
+        .customer-para {
+            font-size: 14px;
+            line-height: 24px;
+            max-width: none;
+        }
+    }
+}
+
+

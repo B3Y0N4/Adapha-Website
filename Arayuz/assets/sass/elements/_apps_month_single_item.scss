@@ -1,0 +1,50 @@
+// _apps_month_area
+
+.apps-month-area {
+    &.apps-bg {
+        background-color: #340335;
+    }
+    .section-title {
+        .title {
+            font-size: 42px;
+            color: $white;
+            margin-bottom: 30px;
+        }
+        .apps-pera {
+            font-size: 17px;
+            color: #fff;
+            font-weight: 400;
+        }
+    }
+    .apps-month-img {
+        &.bg-image {
+            min-height: 500px;
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    .apps-month-single-item {
+        display: flex;
+        .icon {
+            color: #f7618b;
+            font-size: 50px;
+            line-height: 50px;
+            margin-right: 35px;
+        }
+        .content {
+            .title {
+                font-size: 24px;
+                color: $white;
+                margin-bottom: 15px;
+            }
+            .apps-pera {
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.9);
+                hyphens: none;
+            }
+        }
+    }
+
+}
