@@ -1412,6 +1412,21 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: #444;
 }
 
+#slider_dir{
+  float:left;
+  width:60px;
+  margin:0;
+  padding:0;
+  margin-left:0px;
+  margin-top:8px;
+  }
+  #slider_dir li{
+  display:inline;
+  list-style:none;
+  cursor:pointer;
+  }
+
+
 /*---------------------
     ## Breadcumb 
 ----------------------*/
