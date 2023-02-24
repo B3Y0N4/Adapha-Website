@@ -123,8 +123,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+<<<<<<< Updated upstream
     background-image: linear-gradient(125deg, #fb3c7f 0%, #ffc05e 100%);
     border-radius: 10px;
+=======
+  background-image: linear-gradient(125deg,  #03989e 0%, #c6f1e5 100%);
+  border-radius: 10px;
+>>>>>>> Stashed changes
 }
 
 h1 {
@@ -7358,6 +7363,7 @@ Client Area
 ---------------------------------------*/
 
 .back-to-top {
+<<<<<<< Updated upstream
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -7373,6 +7379,23 @@ Client Area
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     display: none;
+=======
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(125deg,  #03989e 0%, #c6f1e5 100%);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  z-index: 99;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: none;
+>>>>>>> Stashed changes
 }
 
 
@@ -7401,6 +7424,7 @@ Client Area
 }
 
 .preloader-inner div {
+<<<<<<< Updated upstream
     width: 120px;
     height: 120px;
     background: linear-gradient(-45deg, #fb3c7f, #ffc05e);
@@ -7409,6 +7433,16 @@ Client Area
     top: 50%;
     transform: translate(-50%, -50%);
     animation: rotation 4s ease-in-out infinite;
+=======
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(-45deg, #03989e, #c6f1e5);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotation 4s ease-in-out infinite;
+>>>>>>> Stashed changes
 }
 
 @keyframes rotation {
@@ -7554,11 +7588,17 @@ Client Area
 }
 
 .btn-wrapper .boxed-btn.learn-btn {
+<<<<<<< Updated upstream
     border-radius: 7px;
     background-image: linear-gradient(140deg, #ED6962 0%, #F9962F 100%);
+=======
+  border-radius: 7px;
+  background-image: linear-gradient(140deg,  #03989e 0%, #c6f1e5 100%);
+>>>>>>> Stashed changes
 }
 
 .btn-wrapper .boxed-btn.learn-btn.style-01 {
+<<<<<<< Updated upstream
     border: none;
     padding: 20px 40px;
     font-size: 16px;
@@ -7568,6 +7608,17 @@ Client Area
     color: #FFFFFF;
     background-color: transparent;
     background-image: linear-gradient(130deg, #ED6962 0%, #F89630 100%);
+=======
+  border: none;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: linear-gradient(130deg,  #03989e 0%, #c6f1e5 100%);
+>>>>>>> Stashed changes
 }
 
 .btn-wrapper .boxed-btn.learn-btn-02 {
