@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+
+    <!-- Google Translate widget styles -->
+    <style>
+        .goog-te-menu-value {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+        }
+        
+        .goog-te-menu2 {
+            max-width: 120px;
+        }
+        
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+        
+        body {
+            top: 0 !important;
+        }
+        
+        .goog-logo-link {
+            display: none !important;
+        }
+        /* Position the flags to the right */
+        
+        .goog-te-gadget {
+            float: right;
+        }
+        /* Style the flags */
+        
+        .goog-te-gadget img {
+            width: 22px;
+            height: 16px;
+            margin: 0 2px;
+            border: 0;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Google Translate widget container -->
+    <div id="google_translate_element"></div>
+
+    <h1>Welcome to my website!</h1>
+    <p>This is a sample paragraph that will be translated.</p>
+
+    <!-- Load the Google Translate API -->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Initialize the Google Translate widget -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'tr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false,
+                key: 'YOUR_API_KEY_HERE' // Replace with your actual API key
+            }, 'google_translate_element');
+        }
+    </script>
+
+</body>
+
+</html>
