@@ -30,7 +30,17 @@
     <meta charset="UTF-8">
 
 
-
+    <style>
+        .flag-frame {
+            float: right;
+        }
+        
+        .flag-icon {
+            height: 20px;
+            width: auto;
+            margin: 0 5px;
+        }
+    </style>
     <!-- Google Translate widget styles -->
     <style>
         .goog-te-menu-value {
@@ -107,6 +117,14 @@
                         <li class=""><a href="basindan.html">Basından</a></li>
                         <li class=""><a href="faq.html">S.S.S</a></li>
                         <li class=""><a href="contact.html">İletişim</a></li>
+                        <li class="">
+                            <a href="anasayfa.html">
+                                <img src="C:\Users\Abduljalal lawal\Desktop\Projeler\ADAPHA Staj\Adapha Web\Adapha-Website\Arayuz\assets\img\turkish-flag.webp" alt="Turkey Flag" class="flag-icon">
+                            </a>
+                            <a href="en_anasayfa.html">
+                                <img src="C:\Users\Abduljalal lawal\Desktop\Projeler\ADAPHA Staj\Adapha Web\Adapha-Website\Arayuz\assets\img\english-flag.webp" alt="England Flag" class="flag-icon">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -169,37 +187,36 @@
             <!-- Load the Google Translate API -->
             <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<<<<<<< Updated upstream
-            <!-- Initialize the Google Translate widget -->
-            <script type="text/javascript">
-                function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'tr',
-                        includedLanguages: 'en',
-                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                        autoDisplay: false,
-                        key: 'YOUR_API_KEY_HERE' // Replace with your actual API key
-                    }, 'google_translate_element');
+            <<<<<<< Updated upstream <!-- Initialize the Google Translate widget -->
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'tr',
+                            includedLanguages: 'en',
+                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                            autoDisplay: false,
+                            key: 'YOUR_API_KEY_HERE' // Replace with your actual API key
+                        }, 'google_translate_element');
 
-                    // Add event listeners to flags
-                    var engFlag = document.querySelector(".goog-te-gadget img[data-language-code='en']");
-                    var trFlag = document.querySelector(".goog-te-gadget img[data-language-code='tr']");
+                        // Add event listeners to flags
+                        var engFlag = document.querySelector(".goog-te-gadget img[data-language-code='en']");
+                        var trFlag = document.querySelector(".goog-te-gadget img[data-language-code='tr']");
 
-                    engFlag.addEventListener("click", function() {
-                        googleTranslateElementInit();
-                        var langSelect = document.querySelector(".goog-te-menu-value span:nth-child(1)");
-                        langSelect.innerHTML = "English";
-                        langSelect.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg')";
-                    });
+                        engFlag.addEventListener("click", function() {
+                            googleTranslateElementInit();
+                            var langSelect = document.querySelector(".goog-te-menu-value span:nth-child(1)");
+                            langSelect.innerHTML = "English";
+                            langSelect.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg')";
+                        });
 
-                    trFlag.addEventListener("click", function() {
-                        googleTranslateElementInit();
-                        var langSelect = document.querySelector(".goog-te-menu-value span:nth-child(1)");
-                        langSelect.innerHTML = "Türkçe";
-                        langSelect.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg')";
-                    });
-                }
-            </script>
+                        trFlag.addEventListener("click", function() {
+                            googleTranslateElementInit();
+                            var langSelect = document.querySelector(".goog-te-menu-value span:nth-child(1)");
+                            langSelect.innerHTML = "Türkçe";
+                            langSelect.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg')";
+                        });
+                    }
+                </script>
 
         </table><br><br><br><br><br>
         <!-- footer area start -->
@@ -236,54 +253,53 @@
                                     <li><a href="projeler.html">Projeler</a></li>
                                 </ul>
                             </div>
-=======
-    <!-- footer area start -->
-    <footer class="footer-area">
-        <div class="footer-top style-04 padding-top-85 padding-bottom-50">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-lg col-md-12 col-sm-6">
-                        <div class="footer-widget style-01 widget widget_nav_menu">
-                            <h4 class="widget-title">Hakkında</h4>
-                            <ul>
-                                <li><a href="ozgecmis.html">Öz Geçmiş</a></li>
-                                <li><a href="akademikgorevler.html">Akademik Görevler</a></li>
-                                <li><a href="oduller.html">Ödüller</a></li>
+                            =======
+                            <!-- footer area start -->
+                            <footer class="footer-area">
+                                <div class="footer-top style-04 padding-top-85 padding-bottom-50">
+                                    <div class="container">
+                                        <div class="row">
 
-                            </ul>
->>>>>>> Stashed changes
-                        </div>
-                        <div class="col-lg col-md-12 col-sm-6">
-                            <div class="footer-widget style-01 widget widget_nav_menu">
-                                <h4 class="widget-title">Galeri</h4>
-                                <ul>
-                                    <li><a href="fotograflar.html">Fotoğraf Galerisi</a></li>
-                                    <li><a href="videolar.html">Video Galerisi</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg col-md-12 col-sm-6">
-                            <div class="footer-widget style-01 widget widget_nav_menu">
-                                <h4 class="widget-title">
-                                    <a href="hastaliklar.html"></a>Hastalıklar</h4>
-                            </div>
-                        </div>
-<<<<<<< Updated upstream
-                        <div class="col-lg col-md-12 col-sm-6">
-                            <div class="footer-widget style-01 widget widget_nav_menu">
-                                <h4 class="widget-title"><a href="basindan.html">Basından</h4></div></div><div class="col-lg col-md-12 col-sm-6"><div class="footer-widget style-01 widget widget_nav_menu"><h4 class="widget-title"><a href="faq.html">S.S.S</h4></div></div><div class="col-lg col-md-12 col-sm-6"><div class="footer-widget style-01 widget widget_nav_menu"><h4 class="widget-title"><a href="contact.html">İletişim</h4></div></div></div></div></div></footer><!-- footer area end --><!-- back to top area start --><div class="back-to-top"><span class="back-top"><i class="fa fa-angle-up"></i></span></div><!-- back to top area end --><!-- jquery --><script src="assets/js/jquery-2.2.4.min.js"></script><!-- bootstrap --><script src="assets/js/bootstrap.min.js"></script><!-- magnific popup --><script src="assets/js/jquery.magnific-popup.js"></script><!-- wow --><script src="assets/js/wow.min.js"></script><!-- owl carousel --><script src="assets/js/owl.carousel.min.js"></script><!-- waypoint --><script src="assets/js/waypoints.min.js"></script><!-- counterup --><script src="assets/js/jquery.counterup.min.js"></script><!-- Water effect --><script src="assets/js/jquery.ripples-min.js"></script><!-- VanillaTilt effect --><script src="assets/js/tilt.jquery.js"></script><!-- imageloaded --><script src="assets/js/imagesloaded.pkgd.min.js"></script><!-- isotope --><script src="assets/js/isotope.pkgd.min.js"></script><!-- parallax js --><script src="assets/js/parallax.js"></script><!-- main js --><script src="assets/js/main.js"></script></body></html>
+                                            <div class="col-lg col-md-12 col-sm-6">
+                                                <div class="footer-widget style-01 widget widget_nav_menu">
+                                                    <h4 class="widget-title">Hakkında</h4>
+                                                    <ul>
+                                                        <li><a href="ozgecmis.html">Öz Geçmiş</a></li>
+                                                        <li><a href="akademikgorevler.html">Akademik Görevler</a></li>
+                                                        <li><a href="oduller.html">Ödüller</a></li>
+
+                                                    </ul>
+                                                    >>>>>>> Stashed changes
+                                                </div>
+                                                <div class="col-lg col-md-12 col-sm-6">
+                                                    <div class="footer-widget style-01 widget widget_nav_menu">
+                                                        <h4 class="widget-title">Galeri</h4>
+                                                        <ul>
+                                                            <li><a href="fotograflar.html">Fotoğraf Galerisi</a></li>
+                                                            <li><a href="videolar.html">Video Galerisi</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg col-md-12 col-sm-6">
+                                                    <div class="footer-widget style-01 widget widget_nav_menu">
+                                                        <h4 class="widget-title">
+                                                            <a href="hastaliklar.html"></a>Hastalıklar</h4>
+                                                    </div>
+                                                </div>
+                                                <<<<<<< Updated upstream <div class="col-lg col-md-12 col-sm-6">
+                                                    <div class="footer-widget style-01 widget widget_nav_menu">
+                                                        <h4 class="widget-title"><a href="basindan.html">Basından</h4></div></div><div class="col-lg col-md-12 col-sm-6"><div class="footer-widget style-01 widget widget_nav_menu"><h4 class="widget-title"><a href="faq.html">S.S.S</h4></div></div><div class="col-lg col-md-12 col-sm-6"><div class="footer-widget style-01 widget widget_nav_menu"><h4 class="widget-title"><a href="contact.html">İletişim</h4></div></div></div></div></div></footer><!-- footer area end --><!-- back to top area start --><div class="back-to-top"><span class="back-top"><i class="fa fa-angle-up"></i></span></div><!-- back to top area end --><!-- jquery --><script src="assets/js/jquery-2.2.4.min.js"></script><!-- bootstrap --><script src="assets/js/bootstrap.min.js"></script><!-- magnific popup --><script src="assets/js/jquery.magnific-popup.js"></script><!-- wow --><script src="assets/js/wow.min.js"></script><!-- owl carousel --><script src="assets/js/owl.carousel.min.js"></script><!-- waypoint --><script src="assets/js/waypoints.min.js"></script><!-- counterup --><script src="assets/js/jquery.counterup.min.js"></script><!-- Water effect --><script src="assets/js/jquery.ripples-min.js"></script><!-- VanillaTilt effect --><script src="assets/js/tilt.jquery.js"></script><!-- imageloaded --><script src="assets/js/imagesloaded.pkgd.min.js"></script><!-- isotope --><script src="assets/js/isotope.pkgd.min.js"></script><!-- parallax js --><script src="assets/js/parallax.js"></script><!-- main js --><script src="assets/js/main.js"></script></body></html>
 =======
                     </div>
                     <div class="col-lg col-md-12 col-sm-6">
                         <div class="footer-widget style-01 widget widget_nav_menu">
                             <h4 class="widget-title"><a href="hastaliklar.html"></a>Hastalıklar</h4>
-                        </div>
-                    </div>
+                                                    </div>
+                                            </div>
 
-                    <div class="col-lg col-md-12 col-sm-6">
-                        <div class="footer-widget style-01 widget widget_nav_menu">
-                            <h4 class="widget-title"><a href="basindan.html">Basından</h4>
+                                            <div class="col-lg col-md-12 col-sm-6">
+                                                <div class="footer-widget style-01 widget widget_nav_menu">
+                                                    <h4 class="widget-title"><a href="basindan.html">Basından</h4>
                         </div>
                     </div>
 
