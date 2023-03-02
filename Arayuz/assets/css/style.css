@@ -86,7 +86,7 @@ Version: 1.0.0
 :root {
     --main-color-one: #16215c;
     --main-color-two: #ffc05e;
-    --secondary-color: #fb3c7f;
+    --secondary-color: #16215c;
     --heading-color: #16215c;
     --paragraph-color: #727777;
     --heading-font: "Roboto", sans-serif;
@@ -2856,8 +2856,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .navbar-area.nav-style-02 .nav-container .logo-wrapper {
-    max-width: 200px;
+    max-width: 200px;    
 }
+
+
 
 .navbar-area.nav-style-02 .nav-container .nav-right-content {
     display: flex;
