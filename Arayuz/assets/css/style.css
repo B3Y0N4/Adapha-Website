@@ -2541,7 +2541,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-color: transparent;
     box-shadow: none;
     border-radius: 0;
-    padding: 0 15px;
+    padding: 0 0px;
 }
 
 .navbar-area.nav-style-02 .nav-container.social-nav .navbar-collapse .navbar-nav {
@@ -3073,7 +3073,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-family: var(--body-font);
     text-transform: capitalize;
     font-weight: 600;
