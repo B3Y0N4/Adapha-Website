@@ -2546,8 +2546,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .navbar-area.nav-style-02 .nav-container.social-nav .navbar-collapse .navbar-nav {
     text-align: center;
+    
 }
 
+  
 .navbar-area.nav-style-02 .nav-container.social-nav .navbar-collapse .navbar-nav li.current-menu-item a {
     color: var(--main-color-one);
 }
@@ -2825,7 +2827,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .navbar-area.nav-style-02 .nav-container.inner-nav .navbar-collapse .navbar-nav {
     text-align: right;
 }
-
+.logo_{
+    border-radius: 75%;
+  }
 .navbar-area.nav-style-02 .nav-container.inner-nav .navbar-collapse .navbar-nav li.current-menu-item a {
     color: var(--main-color-one);
 }
@@ -5796,7 +5800,28 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .request-page-form-wrap.style-02 {
     padding: 52px 50px 44px;
 }
+.bgd-image {
+    background-image: url("../neuron&brain/02.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+    z-index: 0;
+	animation: changeBg 12s infinite;
+}
+@keyframes changeBg {
+    25% {
+        background-image: url("../neuron&brain/03.webp");
+    }
 
+    50% {
+        background-image: url("../neuron&brain/04.webp");
+    }
+
+    75% {
+        background-image: url("../neuron&brain/05.webp");
+    }
+
+}
 .request-page-form-wrap.bg-image {
     background-repeat: no-repeat;
     background-size: cover;
