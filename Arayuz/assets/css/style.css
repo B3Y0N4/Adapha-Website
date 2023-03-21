@@ -5810,7 +5810,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 @keyframes changeBg {
     25% {
-        background-image: url("../neuron&brain/03.webp");
+        background-image: url("../neuron&brain/nö0.webp");
     }
 
     50% {
@@ -8557,9 +8557,9 @@ Client Area
 }
 
 .single-contact-item-02 .content .details {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 34px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
     color: #000629;
 }
 
