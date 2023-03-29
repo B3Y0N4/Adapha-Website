@@ -5801,13 +5801,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 52px 50px 44px;
 }
 .bgd-image {
-    background-image: url("../neuron&brain/02.webp");
+    background-image: url("../neuronbrain/d1enme.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
     position: relative;
-    z-index: 0;
-	animation: changeBg 12s infinite;
-}
+    /*z-index: 0;
+	animation: changeBg 12s infinite;*/
+}/*
 @keyframes changeBg {
     25% {
         background-image: url("../neuron&brain/nö0.webp");
@@ -5821,7 +5821,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         background-image: url("../neuron&brain/05.webp");
     }
 
-}
+}*/
 .request-page-form-wrap.bg-image {
     background-repeat: no-repeat;
     background-size: cover;
