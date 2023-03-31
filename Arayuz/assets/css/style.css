@@ -123,7 +123,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(125deg, #03989e 0%, #c6f1e5 100%);
+  background-image: linear-gradient(125deg, #80d9d8 0%, #c6f1e5 100%);
   border-radius: 10px;
 }
 
@@ -1473,7 +1473,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     z-index: 0;
     background-size: cover;
     background-position: center;
-    padding: 75px 0 45px 0;
+    padding: 150px 0 70px 0;
 }
 
 @media only screen and (max-width: 768px) {
